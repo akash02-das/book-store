@@ -90,3 +90,17 @@ header {
   opacity: 1;
 }
 /* ########## End of Gallery ########## */
+
+/* ######### Famous Writers ######### */
+.famous-writers {
+  background: linear-gradient(
+      rgba(250, 250, 250, 0.7),
+      rgba(250, 250, 250, 0.8)
+    ),
+    url(../img/writers-bg.jpeg);
+  background-attachment: fixed;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+/* ######### End of Famous Writers ######### */
