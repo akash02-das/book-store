@@ -285,3 +285,12 @@ header {
   font-style: normal;
 }
 /* ############ End of Contact ############ */
+
+/* ########## Footer ########## */
+.footer-header::first-letter {
+  font-family: "Great Vibes", cursive;
+  font-size: 4rem;
+  margin-right: 5px;
+  font-style: normal;
+}
+/* ########## End of Footer ########## */
