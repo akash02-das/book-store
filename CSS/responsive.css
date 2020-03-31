@@ -1,0 +1,375 @@
+/* Extra large devices (large desktops, 1200px and up) */
+@media (min-width: 1200px) {
+  /* NO NEED TO CHANGES */
+}
+
+/* Large devices (desktops, 992px and up) */
+@media (min-width: 992px) and (max-width: 1199.98px) {
+  /* Navigation */
+  .nav-book {
+    width: 400px;
+    height: 170px;
+  }
+  /* End of Navigation */
+
+  /* Commom Title */
+  .common-title {
+    display: inline-block;
+    font-size: 2.2rem;
+    font-weight: 500;
+    text-shadow: 2px 2px 5px #aaa;
+    transition: all 0.5s;
+  }
+  .common-title::first-letter {
+    font-family: "Great Vibes", cursive;
+    font-size: 3.6rem;
+    margin-right: 5px;
+    font-style: normal;
+  }
+
+  .common-title:hover {
+    transform: translate(-3px, -2px);
+    text-shadow: 2px 5px 20px #aaa;
+  }
+  /* End of Commom Title */
+}
+
+/* Medium devices (tablets, 768px and up) */
+@media (min-width: 768px) and (max-width: 991.98px) {
+  /* Commom Title */
+  .common-title {
+    display: inline-block;
+    font-size: 1.5rem;
+    font-weight: 400;
+    text-shadow: 2px 2px 5px #aaa;
+    transition: all 0.5s;
+  }
+  .common-title::first-letter {
+    font-family: "Great Vibes", cursive;
+    font-size: 2.6rem;
+    margin-right: 3px;
+    font-style: normal;
+  }
+
+  .common-title:hover {
+    transform: translate(-3px, -2px);
+    text-shadow: 2px 5px 20px #aaa;
+  }
+  /* End of Commom Title */
+
+  /* ########## Navigation ########## */
+  .hamburger-menu {
+    width: 52px;
+    height: 52px;
+    background: #7f7b82;
+    position: fixed;
+    top: 20px;
+    right: 20px;
+    z-index: 200;
+    border-radius: 50%;
+    outline: none !important;
+    transition: all 0.6s;
+  }
+  .line1,
+  .line2,
+  .line3 {
+    width: 20px;
+    height: 1.8px;
+    background: #eee;
+    margin: 4px;
+    transition: all 0.6s;
+  }
+  .bg-cover {
+    background: rgba(35, 37, 40, 0.98);
+    width: 40px;
+    height: 40px;
+    position: fixed;
+    top: 25px;
+    right: 25px;
+    z-index: 100;
+    border-radius: 50%;
+    transition: all 0.6s;
+  }
+  .change .line1 {
+    transform: rotate(-405deg) translate(-4px, 4px);
+    background: #777;
+  }
+  .change .line2 {
+    opacity: 0;
+  }
+  .change .line3 {
+    transform: rotate(405deg) translate(-4px, -4px);
+    background: #777;
+  }
+  .change .bg-cover {
+    transform: scale(100);
+  }
+
+  .link-item {
+    font-size: 14px;
+    color: #eee;
+    border-bottom: 0.5px solid #eee;
+  }
+  .nav-offer h1 {
+    font-size: 25px;
+  }
+  .nav-offer h3 {
+    font-size: 20px;
+  }
+
+  /* Logo */
+  .nav-logo {
+    width: 70px;
+  }
+  .logo-img {
+    width: 90px;
+  }
+
+  /* Banner */
+  .banner-heading {
+    font-size: 50px;
+  }
+  .banner-heading img {
+    width: 150px;
+  }
+  .banner-heading::first-letter {
+    font-size: 5rem;
+    margin-right: 10px;
+  }
+}
+
+/* Small devices (landscape phones, 576px and up) */
+@media (min-width: 576px) and (max-width: 767.98px) {
+  /* Commom Title */
+  .common-title {
+    display: inline-block;
+    font-size: 1rem;
+    font-weight: 300;
+    text-shadow: 1px 1px 3px #aaa;
+    transition: all 0.5s;
+  }
+  .common-title::first-letter {
+    font-family: "Great Vibes", cursive;
+    font-size: 2rem;
+    margin-right: 3px;
+    font-style: normal;
+  }
+
+  .common-title:hover {
+    transform: translate(-2px, -1px);
+    text-shadow: 1px 2px 10px #aaa;
+  }
+  /* End of Commom Title */
+
+  /* ########## Navigation ########## */
+  .hamburger-menu {
+    width: 42px;
+    height: 42px;
+    background: #7f7b82;
+    position: fixed;
+    top: 15px;
+    right: 15px;
+    z-index: 200;
+    border-radius: 50%;
+    outline: none !important;
+    transition: all 0.6s;
+  }
+  .line1,
+  .line2,
+  .line3 {
+    width: 12px;
+    height: 1px;
+    background: #eee;
+    margin: 3px;
+    transition: all 0.6s;
+  }
+  .bg-cover {
+    background: rgba(35, 37, 40, 0.98);
+    width: 35px;
+    height: 35px;
+    position: fixed;
+    top: 20px;
+    right: 20px;
+    z-index: 100;
+    border-radius: 50%;
+    transition: all 0.6s;
+  }
+  .change .line1 {
+    transform: rotate(-405deg) translate(-3px, 3px);
+    background: #777;
+  }
+  .change .line2 {
+    opacity: 0;
+  }
+  .change .line3 {
+    transform: rotate(405deg) translate(-3px, -3px);
+    background: #777;
+  }
+  .change .bg-cover {
+    transform: scale(80);
+  }
+
+  .link-item {
+    font-size: 11px;
+    color: #eee;
+    border-bottom: 0.5px solid #eee;
+    padding: 5px;
+  }
+  .nav-offer h1 {
+    display: none;
+  }
+  .nav-offer h3 {
+    display: none;
+  }
+
+  /* Logo */
+  .nav-logo {
+    width: 50px;
+  }
+  .logo-img {
+    width: 60px;
+  }
+
+  /* Banner */
+  .banner-heading {
+    font-size: 25px;
+  }
+  .banner-heading img {
+    width: 100px;
+  }
+  .banner-heading::first-letter {
+    font-size: 3rem;
+    margin-right: 5px;
+  }
+}
+
+/* Extra small devices (portrait phones, less than 576px) */
+@media (max-width: 575.98px) {
+  /* Commom Title */
+  .common-title {
+    display: inline-block;
+    font-size: 14px;
+    font-weight: 300;
+    text-shadow: 1px 1px 3px #aaa;
+    transition: all 0.5s;
+  }
+  .common-title::first-letter {
+    font-family: "Great Vibes", cursive;
+    font-size: 1.5rem;
+    margin-right: 2px;
+    font-style: normal;
+  }
+
+  .common-title:hover {
+    transform: translate(-1px, -0.5px);
+    text-shadow: 1px 2px 0.8px #aaa;
+  }
+  /* End of Commom Title */
+
+  /* ########## Navigation ########## */
+  .hamburger-menu {
+    width: 42px;
+    height: 42px;
+    background: #7f7b82;
+    position: fixed;
+    top: 15px;
+    right: 15px;
+    z-index: 200;
+    border-radius: 50%;
+    outline: none !important;
+    transition: all 0.6s;
+  }
+  .line1,
+  .line2,
+  .line3 {
+    width: 12px;
+    height: 1px;
+    background: #eee;
+    margin: 3px;
+    transition: all 0.6s;
+  }
+  .bg-cover {
+    background: rgba(35, 37, 40, 0.98);
+    width: 35px;
+    height: 35px;
+    position: fixed;
+    top: 20px;
+    right: 20px;
+    z-index: 100;
+    border-radius: 50%;
+    transition: all 0.6s;
+  }
+  .change .line1 {
+    transform: rotate(-405deg) translate(-3px, 3px);
+    background: #777;
+  }
+  .change .line2 {
+    opacity: 0;
+  }
+  .change .line3 {
+    transform: rotate(405deg) translate(-3px, -3px);
+    background: #777;
+  }
+  .change .bg-cover {
+    transform: scale(80);
+  }
+
+  .link-item {
+    font-size: 14px;
+    color: #eee;
+    border-bottom: 0.5px solid #eee;
+    padding: 8px;
+  }
+  .nav-offer h1 {
+    font-size: 20px;
+  }
+  .nav-offer h3 {
+    font-size: 15px;
+  }
+
+  /* Logo */
+  .nav-logo {
+    width: 50px;
+  }
+  .logo-img {
+    width: 60px;
+  }
+
+  /* Banner */
+  .banner-heading {
+    font-size: 25px;
+  }
+  .banner-heading img {
+    width: 100px;
+  }
+  .banner-heading::first-letter {
+    font-size: 3rem;
+    margin-right: 5px;
+  }
+
+  /* Contact */
+  .contact-header {
+    font-size: 16px;
+  }
+
+  .contact-header::first-letter {
+    font-family: "Great Vibes", cursive;
+    font-size: 2rem;
+    margin-right: 3px;
+    font-style: normal;
+  }
+
+  /* ########## Footer ########## */
+  .footer-header {
+    font-size: 16px;
+  }
+  .footer-header::first-letter {
+    font-family: "Great Vibes", cursive;
+    font-size: 2rem;
+    margin-right: 3px;
+    font-style: normal;
+  }
+  .f-cr {
+    font-size: 14px;
+  }
+}
